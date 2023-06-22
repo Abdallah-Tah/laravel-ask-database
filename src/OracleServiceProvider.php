@@ -11,7 +11,7 @@ class OracleServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('ask-database')
+            ->name('laravel-ask-database')
             ->hasConfigFile()
             ->hasViews();
     }
